@@ -8,9 +8,6 @@
     "prepare": "rm -rf example",
     "test": "jest",
     "test:update": "npm run test -- --updateSnapshot",
-    "lint": "standard 'src/**/*.js'",
-    "lint:fix": "standard 'src/**/*.js' --fix",
-    "lint:staged": "lint-staged",
     "check:update": "npx npm-check-updates -u",
     "check:outdated": "npm outdated"
   },
